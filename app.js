@@ -6,7 +6,7 @@ const camarasDesinstaladas=[];
 
 addCamara.addEventListener("click",()=>{
 
-    if (checkModo.Checked) {
+    if (checkModo.checked) {
         alert("check")
     }else{
         alert("no check")
