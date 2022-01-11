@@ -7,7 +7,7 @@ const camarasDesinstaladas=[];
 let modo=0;
 addCamara.addEventListener("click",()=>{
     if (numCamara.value !=="") {
-        if (cambiarModo()) {
+        if (cambioModo()) {
             camarasDesinstaladas.push(Number(numCamara.value))
         }else{
             numCamaraArray.push(Number(numCamara.value))
